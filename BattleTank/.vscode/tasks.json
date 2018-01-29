@@ -1,0 +1,635 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"taskName": "BattleTank Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTank",
+				"Mac",
+				"Debug",
+				"/Users/himsdlee/Documents/UnrealProjects/BtlTank/BattleTank/BattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_4.18"
+			}
+		},
+		{
+			"taskName": "BattleTank Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTank",
+				"Mac",
+				"Debug",
+				"/Users/himsdlee/Documents/UnrealProjects/BtlTank/BattleTank/BattleTank.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_4.18"
+			}
+		},
+		{
+			"taskName": "BattleTank Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTank",
+				"Mac",
+				"DebugGame",
+				"/Users/himsdlee/Documents/UnrealProjects/BtlTank/BattleTank/BattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_4.18"
+			}
+		},
+		{
+			"taskName": "BattleTank Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTank",
+				"Mac",
+				"DebugGame",
+				"/Users/himsdlee/Documents/UnrealProjects/BtlTank/BattleTank/BattleTank.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_4.18"
+			}
+		},
+		{
+			"taskName": "BattleTank Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTank",
+				"Mac",
+				"Development",
+				"/Users/himsdlee/Documents/UnrealProjects/BtlTank/BattleTank/BattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_4.18"
+			}
+		},
+		{
+			"taskName": "BattleTank Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTank",
+				"Mac",
+				"Development",
+				"/Users/himsdlee/Documents/UnrealProjects/BtlTank/BattleTank/BattleTank.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_4.18"
+			}
+		},
+		{
+			"taskName": "BattleTank Mac Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTank",
+				"Mac",
+				"Shipping",
+				"/Users/himsdlee/Documents/UnrealProjects/BtlTank/BattleTank/BattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_4.18"
+			}
+		},
+		{
+			"taskName": "BattleTank Mac Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTank",
+				"Mac",
+				"Shipping",
+				"/Users/himsdlee/Documents/UnrealProjects/BtlTank/BattleTank/BattleTank.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_4.18"
+			}
+		},
+		{
+			"taskName": "BattleTank Mac Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTank",
+				"Mac",
+				"Test",
+				"/Users/himsdlee/Documents/UnrealProjects/BtlTank/BattleTank/BattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_4.18"
+			}
+		},
+		{
+			"taskName": "BattleTank Mac Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTank",
+				"Mac",
+				"Test",
+				"/Users/himsdlee/Documents/UnrealProjects/BtlTank/BattleTank/BattleTank.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_4.18"
+			}
+		},
+		{
+			"taskName": "BattleTank IOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTank",
+				"IOS",
+				"Debug",
+				"/Users/himsdlee/Documents/UnrealProjects/BtlTank/BattleTank/BattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_4.18"
+			}
+		},
+		{
+			"taskName": "BattleTank IOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTank",
+				"IOS",
+				"Debug",
+				"/Users/himsdlee/Documents/UnrealProjects/BtlTank/BattleTank/BattleTank.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_4.18"
+			}
+		},
+		{
+			"taskName": "BattleTank IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTank",
+				"IOS",
+				"DebugGame",
+				"/Users/himsdlee/Documents/UnrealProjects/BtlTank/BattleTank/BattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_4.18"
+			}
+		},
+		{
+			"taskName": "BattleTank IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTank",
+				"IOS",
+				"DebugGame",
+				"/Users/himsdlee/Documents/UnrealProjects/BtlTank/BattleTank/BattleTank.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_4.18"
+			}
+		},
+		{
+			"taskName": "BattleTank IOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTank",
+				"IOS",
+				"Development",
+				"/Users/himsdlee/Documents/UnrealProjects/BtlTank/BattleTank/BattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_4.18"
+			}
+		},
+		{
+			"taskName": "BattleTank IOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTank",
+				"IOS",
+				"Development",
+				"/Users/himsdlee/Documents/UnrealProjects/BtlTank/BattleTank/BattleTank.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_4.18"
+			}
+		},
+		{
+			"taskName": "BattleTank IOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTank",
+				"IOS",
+				"Shipping",
+				"/Users/himsdlee/Documents/UnrealProjects/BtlTank/BattleTank/BattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_4.18"
+			}
+		},
+		{
+			"taskName": "BattleTank IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTank",
+				"IOS",
+				"Shipping",
+				"/Users/himsdlee/Documents/UnrealProjects/BtlTank/BattleTank/BattleTank.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_4.18"
+			}
+		},
+		{
+			"taskName": "BattleTank IOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTank",
+				"IOS",
+				"Test",
+				"/Users/himsdlee/Documents/UnrealProjects/BtlTank/BattleTank/BattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_4.18"
+			}
+		},
+		{
+			"taskName": "BattleTank IOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTank",
+				"IOS",
+				"Test",
+				"/Users/himsdlee/Documents/UnrealProjects/BtlTank/BattleTank/BattleTank.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_4.18"
+			}
+		},
+		{
+			"taskName": "BattleTank HTML5 Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTank",
+				"HTML5",
+				"Debug",
+				"/Users/himsdlee/Documents/UnrealProjects/BtlTank/BattleTank/BattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_4.18"
+			}
+		},
+		{
+			"taskName": "BattleTank HTML5 Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTank",
+				"HTML5",
+				"Debug",
+				"/Users/himsdlee/Documents/UnrealProjects/BtlTank/BattleTank/BattleTank.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_4.18"
+			}
+		},
+		{
+			"taskName": "BattleTank HTML5 DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTank",
+				"HTML5",
+				"DebugGame",
+				"/Users/himsdlee/Documents/UnrealProjects/BtlTank/BattleTank/BattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_4.18"
+			}
+		},
+		{
+			"taskName": "BattleTank HTML5 DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTank",
+				"HTML5",
+				"DebugGame",
+				"/Users/himsdlee/Documents/UnrealProjects/BtlTank/BattleTank/BattleTank.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_4.18"
+			}
+		},
+		{
+			"taskName": "BattleTank HTML5 Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTank",
+				"HTML5",
+				"Development",
+				"/Users/himsdlee/Documents/UnrealProjects/BtlTank/BattleTank/BattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_4.18"
+			}
+		},
+		{
+			"taskName": "BattleTank HTML5 Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTank",
+				"HTML5",
+				"Development",
+				"/Users/himsdlee/Documents/UnrealProjects/BtlTank/BattleTank/BattleTank.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_4.18"
+			}
+		},
+		{
+			"taskName": "BattleTank HTML5 Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTank",
+				"HTML5",
+				"Shipping",
+				"/Users/himsdlee/Documents/UnrealProjects/BtlTank/BattleTank/BattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_4.18"
+			}
+		},
+		{
+			"taskName": "BattleTank HTML5 Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTank",
+				"HTML5",
+				"Shipping",
+				"/Users/himsdlee/Documents/UnrealProjects/BtlTank/BattleTank/BattleTank.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_4.18"
+			}
+		},
+		{
+			"taskName": "BattleTank HTML5 Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTank",
+				"HTML5",
+				"Test",
+				"/Users/himsdlee/Documents/UnrealProjects/BtlTank/BattleTank/BattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_4.18"
+			}
+		},
+		{
+			"taskName": "BattleTank HTML5 Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTank",
+				"HTML5",
+				"Test",
+				"/Users/himsdlee/Documents/UnrealProjects/BtlTank/BattleTank/BattleTank.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_4.18"
+			}
+		},
+		{
+			"taskName": "BattleTankEditor Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTankEditor",
+				"Mac",
+				"Debug",
+				"/Users/himsdlee/Documents/UnrealProjects/BtlTank/BattleTank/BattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_4.18"
+			}
+		},
+		{
+			"taskName": "BattleTankEditor Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTankEditor",
+				"Mac",
+				"Debug",
+				"/Users/himsdlee/Documents/UnrealProjects/BtlTank/BattleTank/BattleTank.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_4.18"
+			}
+		},
+		{
+			"taskName": "BattleTankEditor Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTankEditor",
+				"Mac",
+				"DebugGame",
+				"/Users/himsdlee/Documents/UnrealProjects/BtlTank/BattleTank/BattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_4.18"
+			}
+		},
+		{
+			"taskName": "BattleTankEditor Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTankEditor",
+				"Mac",
+				"DebugGame",
+				"/Users/himsdlee/Documents/UnrealProjects/BtlTank/BattleTank/BattleTank.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_4.18"
+			}
+		},
+		{
+			"taskName": "BattleTankEditor Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTankEditor",
+				"Mac",
+				"Development",
+				"/Users/himsdlee/Documents/UnrealProjects/BtlTank/BattleTank/BattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_4.18"
+			}
+		},
+		{
+			"taskName": "BattleTankEditor Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTankEditor",
+				"Mac",
+				"Development",
+				"/Users/himsdlee/Documents/UnrealProjects/BtlTank/BattleTank/BattleTank.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_4.18"
+			}
+		}
+	]
+}

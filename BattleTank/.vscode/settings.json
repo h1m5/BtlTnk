@@ -1,0 +1,8 @@
+{
+	"typescript.tsc.autoDetect": "off",
+	"files.exclude": {
+		"/Users/himsdlee/Documents/UnrealProjects/BtlTank/BattleTank/.vscode": true,
+		"/Users/himsdlee/Documents/UnrealProjects/BtlTank/BattleTank/Content": true,
+		"/Users/himsdlee/Documents/UnrealProjects/BtlTank/BattleTank/Intermediate": true
+	}
+}
